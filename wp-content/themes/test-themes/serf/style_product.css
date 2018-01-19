@@ -1,0 +1,20 @@
+.header{
+    height: 350px;
+}
+.content .sidebar{
+    top: 0;
+}
+.products{
+    top: 0;
+}
+.products .category .category_name{
+    font-size: 33px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+
+    margin: 56px 0 37px 4px;
+
+    color: #333;
+}
+.social_buttons{
+    margin-top: 54px;
+}

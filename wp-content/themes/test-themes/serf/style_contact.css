@@ -1,0 +1,31 @@
+.header{
+    height: 350px;
+
+    background-image: url('img/maps.jpg');
+}
+.content .sidebar{
+    top: 0;
+}
+.products{
+    top: 65px;
+}
+.breadcrumbs{
+    margin-top: 13px;
+    margin-left: 51px;
+}
+.brands{
+    float: left;
+
+    width: 870px;
+    height: 160px;
+    margin-top: 62px;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    background-image: url('img/brands_small.png');
+    background-repeat: no-repeat;
+    background-position: 83px 67px ;
+}
+.social_buttons{
+    margin-top: 143px;
+}
