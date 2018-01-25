@@ -47,12 +47,12 @@
 					<input type="button" value="SUBMIT">
 				</form>
 				<div class="payblock">
-					<a href="#"><img src="img/pay1.jpg" alt="pay1"></a>
-					<a href="#"><img src="img/pay2.jpg" alt="pay2"></a>
-					<a href="#"><img src="img/pay3.jpg" alt="pay3"></a>
-					<a href="#"><img src="img/pay4.jpg" alt="pay4"></a>
-					<a href="#"><img src="img/pay5.jpg" alt="pay5"></a>
-					<a href="#"><img src="img/pay6.jpg" alt="pay6"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pay1.jpg" alt="pay1"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pay2.jpg" alt="pay2"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pay3.jpg" alt="pay3"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pay4.jpg" alt="pay4"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pay5.jpg" alt="pay5"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pay6.jpg" alt="pay6"></a>
 				</div>
 			</div>
 			<div class="about">
@@ -71,16 +71,18 @@
 			</div>
 		</div>
 		<div class="bottom">
-			<div class="copy">&copy;</div>
-			<div class="copy_text">2014  SURFHOUSE. All rights reserved - Designed by theuncreativelab.com</div>
-			<div class="footer_social">
-				<a href="#1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				<a href="#2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="#3"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-				<a href="#4"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-				<a href="#5"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-				<a href="#6"><i class="fa fa-instagram" aria-hidden="true"></i></a>				
-				<a href="#7"><i class="fa fa-rss" aria-hidden="true"></i></a>
+			<div class="text">
+				<div class="copy">&copy;</div>
+				<div class="copy_text">2014  SURFHOUSE. All rights reserved - Designed by theuncreativelab.com</div>
+				<div class="footer_social">
+					<a href="#1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#3"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+					<a href="#4"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="#5"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+					<a href="#6"><i class="fa fa-instagram" aria-hidden="true"></i></a>				
+					<a href="#7"><i class="fa fa-rss" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 	</div>

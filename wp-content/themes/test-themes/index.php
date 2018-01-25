@@ -1,44 +1,25 @@
 <?php get_header(); ?>
-<div class="content">
+<div class="content clearfix">
 	<div class="sidebar">
 		<div class="nav">
 			<h3>Menu</h3>
-			<ul>
-				<li><a href="#1">About</a></li>
-				<li><a href="#2">apparel</a></li>
-				<li><a href="#3">surf apparel</a></li>
-				<li><a href="#4">windsurf</a>
-					<ul>
-						<li><a href="#">kites</a></li>
-						<li><a href="#">kiteboards </a></li>
-						<li><a href="#">bags </a>
-							<ul>
-								<li><a href="#">MAGIC Kit</a></li>
-								<li><a href="#">Pro limit s0214</a></li>
-							</ul>
-						</li>
-						<li><a href="#">equipment</a></li>
-					</ul>
-				</li>
-				<li><a href="#5">kitesurf</a></li>
-				<li><a href="#6">accessories</a></li>
-				<li><a href="#7">sale</a></li>
-				<li><a href="#8">brands</a></li>
-				<li><a href="#9">blog</a></li>
-				<li><a href="#10">Gadgets</a></li>
-				<li><a href="contact.html">contact</a></li>
-			</ul>
+			<?php wp_nav_menu([
+					'theme_location' => 'left_menu',
+					'container' => null,
+					'items_wrap' => '<ul>%3$s</ul>'
+				]);
+			?>			
 		</div>
 		<div class="banner">
 			Now is open!
 		</div>
 	</div>
-	<div class="breadcrumbs">
+	<div class="breadcrumbs clearfix">
 		<div class="crumb"><a href="index.html">Home</a></div>
 		<div class="crumb"><a href="#">Apparel</a></div>
 		<div class="crumb"><a href="#">Women</a></div>
 	</div>
-	<div class="products">
+	<div class="products clearfix">
 		<div class="category">
 			<a href="#" class="category_name"></a>
 			<div class="blocks">
@@ -199,7 +180,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="social_buttons">
+	<div class="social_buttons clearfix">
 		<a href="#1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		<a href="#2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 		<a href="#3"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
