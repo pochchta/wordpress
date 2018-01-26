@@ -38,6 +38,11 @@
     margin: 0;
     padding: 0;
 }
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 .clearfix:after{
 	content: '';
 	display: block;
@@ -245,8 +250,6 @@ body{
 .content .sidebar .nav{
     position: relative;
     z-index: 3;
-
-    float: left;
 }
 .content .sidebar .nav h3{
     font-size: 14px;
@@ -384,24 +387,23 @@ body{
 .content .sidebar .nav li:hover > ul{
     display: block;
 }
-.content .sidebar .banner{
-    font-size: 36px;
+.content .sidebar > .widget{
+    margin-top: 30px;
+        color: #333;
+    background-color: #e0e0e0;
+    padding: 20px;
+/*    font-size: 36px;
     font-weight: 400;
     line-height: 36px;
 
-    float: left;
-    clear: both;
-
     width: 94px;
     height: 101px;
-    margin-top: 30px;
     padding: 125px 34px 74px 142px;
 
     text-align: left;
     text-transform: uppercase;
 
-    color: #333;
-    background-color: #e0e0e0;
+*/
 }
 
 

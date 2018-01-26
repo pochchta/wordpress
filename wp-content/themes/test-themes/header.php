@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<title>SHOP-CAT</title>	
 	<meta charset="<?php bloginfo('charset') ?>">
 
 	<?php wp_head(); ?>
@@ -9,8 +8,8 @@
 <body>
 	<div class="container">
 		<div class="header">
-			<div class="header_top">
-				<a href="<?php home_url(); ?>" class="logo"></a>
+			<div class="header_top">			
+				<a href="<?php echo home_url(); ?>" class="logo"></a>
 				<a href="#" class="select_language">EN</a>				
 				<div class="header_social">
 					<a href="#1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
