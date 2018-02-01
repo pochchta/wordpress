@@ -6,7 +6,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div class="container">
+	<div class="container<?php if(is_front_page()) echo ' front_page' ?>">
 		<div class="header">
 			<div class="header_top">			
 				<a href="<?php echo home_url(); ?>" class="logo"></a>

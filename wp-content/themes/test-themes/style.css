@@ -60,11 +60,14 @@ body{
     background-color: #f8f8f8;
 }
 .header{
-    height: 700px;
+	height: 350px;
     max-width: 1500px;    
     margin: 0 auto;
 
     background-color: #abeafa;
+}
+.container.front_page .header{
+    /*height: 700px;	для главной страницы с большим хедером*/
 }
 .header_top{
     height: 135px;
@@ -240,12 +243,15 @@ body{
 }
 .content .sidebar{
     position: relative;
-    top: -20px;
+	top: 0;
 
     float: left;
 
     width: 270px;
     /*margin-left: 165px;*/
+}
+.container.front_page .content .sidebar{
+	/*top: -20px;	для главной страницы с большим хедером*/
 }
 .content .sidebar .nav{
     position: relative;
@@ -406,11 +412,15 @@ body{
 */
 }
 
-
+.main_col{
+	float: left;
+	width: 870px;
+	margin-left: 30px;
+}
 
 
 .breadcrumbs{
-    float: left;
+    /*float: left;*/
 
     /*width: 870px;*/
     margin-top: 33px;
@@ -668,14 +678,17 @@ body{
 
 .products{
     position: relative;
-    top: -18px;
+    top: 0;
 
-    float: left;
+/*    float: left;
 
     width: 870px;
-    margin-left: 30px;
+    margin-left: 30px;*/
 
     background-color: #f8f8f8;
+}
+.container.front_page .products{
+    /*top: -18px;	для главной страницы с большим хедером*/
 }
 .products .category{
     float: left;
@@ -743,6 +756,8 @@ body{
 
     width: 125px;
     margin: 25px 0 0 15px;
+
+    text-transform: uppercase;
 
     color: #333;
 }
@@ -1091,6 +1106,10 @@ body{
 
     /*width: 1170px;*/
     /*margin-left: 165px;*/
+    padding-top: 101px;
+}
+.container.front_page .social_buttons{
+	/*padding-top: 0;	для главной страницы с большим хедером*/
 }
 .social_buttons a{
     font-size: 70px;
@@ -1451,4 +1470,11 @@ body{
 }
 .footer .bottom .footer_social a:active{
     margin-top: 1px;
+}
+
+
+
+
+.navigation_for_posts{
+	
 }
